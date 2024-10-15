@@ -3,7 +3,6 @@
 
 	--light-background: #fc8dac;
 	--light-color: #1b1b1b;
-
 	--dark-background: #1b1b1b;
 	--dark-color: #fc8dac;
 }
@@ -16,9 +15,6 @@
 body {
 	font-family: "Roboto Slab", serif;
 	font-optical-sizing: auto;
-
-/*	background-color: #fc8dac;
-	color: #1b1b1b;*/
 	text-align: center;
 }
 
