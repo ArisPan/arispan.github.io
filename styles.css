@@ -4,6 +4,11 @@
 	--black: #1b1b1b;
 }
 
+::selection {
+	color: light-dark(var(--pink), var(--black));
+	background: light-dark(var(--black), var(--pink));
+}
+
 * {
 	background-color: light-dark(var(--pink), var(--black));
 	color: light-dark(var(--black), white);
