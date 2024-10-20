@@ -30,8 +30,19 @@ p {
 	margin: 0.5rem;
 }
 
+svg {
+	display: block;
+
+	width: 2.5rem;
+	height: auto;
+	margin: 0 0.7rem;
+
+	transition: transform 0.2s;
+	fill: light-dark(var(--black), white);
+}
+
 .title-subtitle {
-	margin: 1rem;
+	margin: 1rem 1rem 1.3rem 1rem;
 }
 
 .button-wrapper {
@@ -56,10 +67,20 @@ p {
 	border-color: light-dark(var(--black), white);
 }
 
-/* Button hover transition on 768px an up */
+.social {
+	display: flex;
+	justify-content: center;
+	margin-top: 1.8rem;
+}
+
+/* Hover transitions on desktop only (768px an up) */
 @media screen and (min-width: 768px) {
 	.cv-button:hover {
 		transform: translate(5px, 5px);
+	}
+
+	svg:hover {
+		transform: scale(1.2);
 	}
 }
 
