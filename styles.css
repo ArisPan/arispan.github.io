@@ -39,59 +39,62 @@ p {
 	box-shadow: 8px 8px 0px 0px light-dark(var(--black), white);
 }
 
-button {
+.cv-button {
+	display: block;
+
 	background-color: light-dark(white, var(--black));
 	color: light-dark(var(--black), white);
 
 	font-family: inherit;
 	font-size: 1.1rem;
 
+	text-decoration: none;
+	cursor: default;
+
 	border-style: solid;
 	border-width: 2px;
 	border-color: light-dark(var(--black), white);
 }
 
-/********** Button Responsive Behaviour **********/
-
 /* Button hover transition on 768px an up */
 @media screen and (min-width: 768px) {
-	button:hover {
+	.cv-button:hover {
 		transform: translate(5px, 5px);
 	}
 }
 
 @media screen and (min-width: 618px) {
-	button {
+	.cv-button {
 		padding: 1em 10em;
 	}
 }
 
 @media screen and (max-width: 618px) and (min-width: 548px) {
-	button {
+	.cv-button {
 		padding: 1em 8em;
 	}
 }
 
 @media screen and (max-width: 548px) and (min-width: 477px) {
-	button {
+	.cv-button {
 		padding: 1em 6em;
 	}
 }
 
 @media screen and (max-width: 477px) and (min-width: 407px) {
-	button {
+	.cv-button {
 			padding: 1em 4em;
 		}
 }
 
 @media screen and (max-width: 407px) and (min-width: 337px) {
-	button {
+	.cv-button {
 			padding: 1em 2em;
 		}
 }
 
 @media screen and (max-width: 337px) {
-	button {
+	.cv-button {
 			padding: 1em 1em;
 		}
 }
