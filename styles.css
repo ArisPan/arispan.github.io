@@ -76,6 +76,7 @@ svg {
 	display: flex;
 	justify-content: center;
 	margin-top: 1.8rem;
+	margin-bottom: 1.8rem;
 }
 
 /* Hover transitions on desktop only (768px an up) */
