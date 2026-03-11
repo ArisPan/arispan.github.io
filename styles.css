@@ -111,25 +111,43 @@ svg {
 	}
 }
 
-@media screen and (max-width: 548px) and (min-width: 477px) {
+@media screen and (max-width: 548px) and (min-width: 514px) {
 	.cv-button {
-		padding: 1em 6em;
+		padding: 1em 7em;
 	}
 }
 
-@media screen and (max-width: 477px) and (min-width: 407px) {
+@media screen and (max-width: 514px) and (min-width: 478px) {
+	.cv-button {
+			padding: 1em 6em;
+		}
+}
+
+@media screen and (max-width: 478px) and (min-width: 443px) {
+	.cv-button {
+			padding: 1em 5em;
+		}
+}
+
+@media screen and (max-width: 443px) and (min-width: 407px) {
 	.cv-button {
 			padding: 1em 4em;
 		}
 }
 
-@media screen and (max-width: 407px) and (min-width: 337px) {
+@media screen and (max-width: 407px) and (min-width: 332px) {
+	.cv-button {
+			padding: 1em 3em;
+		}
+}
+
+@media screen and (max-width: 332px) and (min-width: 296px) {
 	.cv-button {
 			padding: 1em 2em;
 		}
 }
 
-@media screen and (max-width: 337px) {
+@media screen and (max-width: 296px) {
 	.cv-button {
 			padding: 1em 1em;
 		}
