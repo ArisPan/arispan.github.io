@@ -20,9 +20,12 @@ body {
 	text-align: center;
 }
 
+main {
+	margin-top: 1.5rem;
+}
+
 img {
 	border-radius: 50%;
-	margin-top: 3rem;
 }
 
 h1 {
@@ -31,8 +34,11 @@ h1 {
 }
 
 p {
-	font-weight: 400;
 	margin: 0.5rem;
+}
+
+a {
+	text-decoration: none;
 }
 
 svg {
@@ -44,6 +50,10 @@ svg {
 
 	transition: transform 0.2s;
 	fill: light-dark(var(--black), white);
+}
+
+.header {
+	display: flex;
 }
 
 .title-subtitle {
@@ -65,7 +75,6 @@ svg {
 	font-size: 1.1rem;
 
 	text-decoration: none;
-	cursor: default;
 
 	border-style: solid;
 	border-width: 2px;
